@@ -1,0 +1,14 @@
+{
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "description": "This extension deletes items in the browsers history that are older than 14 days.",
+    "homepage_url": "https://github.com/FlorinPopaCodes/dime-history",
+    "permissions": [
+      "history",
+      "idle"
+    ],
+    "manifest_version": 2,
+    "name": "Dime History",
+    "version": "0.1"
+  }
