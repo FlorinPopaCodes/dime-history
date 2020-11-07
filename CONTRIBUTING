@@ -1,0 +1,6 @@
+As this repository follows the philosophy of doing "one thing well", I won't
+be adding any new features in the future, nor I will be accepting any new 
+ones from other people.
+
+This will probably break sometime in the next few years, so I'll accept any
+Pull Request that fixes an existing issue.
