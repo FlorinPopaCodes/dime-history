@@ -10,12 +10,7 @@
     ],
     "manifest_version": 2,
     "name": "Dime History",
-    "version": "0.3",
-    "browser_specific_settings": {
-      "gecko": {
-        "id": "{798e6539-8501-4096-ab7e-a9d35b41c03c}"
-      }
-    },
+    "version": "0.0.1",
     "icons": {
       "48": "icon.svg",
       "96": "icon.svg"
