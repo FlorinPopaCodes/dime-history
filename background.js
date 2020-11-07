@@ -1,5 +1,3 @@
-const browser = require('webextension-polyfill')
-
 async function deleteOlderThanForteenDays (state) {
   const forteenDays = 1.21e9
 
