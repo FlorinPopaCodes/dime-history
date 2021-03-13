@@ -2,7 +2,7 @@
     "background": {
       "scripts": ["background.js"]
     },
-    "description": "This extension deletes items in the browsers history that are older than 14 days.",
+    "description": "Automatically deletes history older than 14 days.",
     "homepage_url": "https://github.com/FlorinPopaCodes/dime-history",
     "permissions": [
       "history",

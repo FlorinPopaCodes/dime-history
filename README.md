@@ -19,12 +19,6 @@ After you install the extension, it waits for the browser to become idle
 14 days.
 
 
-## Icon
-
-The icon is taken from [Official open source SVG icon library for Bootstrap.](https://github.com/twbs/icons)
-which has a MIT License.
-
-
 ## Alternatives
 
 * [HistoryCleaner](https://addons.mozilla.org/en-US/firefox/addon/history-cleaner/)
