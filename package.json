@@ -12,6 +12,7 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.7.0",
     "vitest": "^3.0.0",
