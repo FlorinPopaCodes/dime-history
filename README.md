@@ -14,9 +14,9 @@ than two weeks.
 
 ## How does this work
 
-After you install the extension, it waits for the browser to become idle
-(after around a minute) and then it starts deleting EVERYTHING older than
-14 days.
+When installed, the extension records the current date. On each idle event
+(after around a minute of inactivity), it deletes history between the install
+date and 14 days ago. It never touches history from before installation.
 
 
 ## Alternatives

@@ -1,9 +1,20 @@
 {
   "name": "dime-history",
-  "dependencies": {
-    "web-ext": "^5.3.0"
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
-    "standard": "*"
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0",
+    "wxt": "^0.20.0"
   }
 }
