@@ -1,0 +1,12 @@
+diff --git a/node_modules/publish-browser-extension/dist/init-B_5llAMS.mjs b/node_modules/publish-browser-extension/dist/init-B_5llAMS.mjs
+index d982270..005322c 100644
+--- a/node_modules/publish-browser-extension/dist/init-B_5llAMS.mjs
++++ b/node_modules/publish-browser-extension/dist/init-B_5llAMS.mjs
+@@ -327,6 +327,7 @@ var AddonsApi = class {
+ 		const endpoint = this.addonVersionCreateEndpoint(params.extensionId);
+ 		const form = new FormData();
+ 		form.set("upload", params.uploadUuid);
++		form.set("license", "MIT");
+ 		if (params.sourceFile) form.set("source", await fileFromPath(params.sourceFile));
+ 		else form.set("source", "");
+ 		const encoder = new FormDataEncoder(form);

@@ -3,7 +3,7 @@ import { defineConfig } from "wxt";
 export default defineConfig({
   manifestVersion: 3,
   manifest: {
-    version: "0.0.7",
+    version: "0.0.8",
     name: "Dime History",
     description: "Automatically deletes history older than 14 days.",
     homepage_url: "https://github.com/FlorinPopaCodes/dime-history",
